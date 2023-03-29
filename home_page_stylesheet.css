@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------ *\
+	Page
+\* ------------------------------------------------------------ */
+
+.page__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	justify-content: space-around;
+	border-radius: 8px;
+	background-color: #feecc8;
+    box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
+}
+
+.page__content h1 {
+    color:#d73f28;
+    font-size: 36px;
+	text-shadow: 2px 2px 3px #1b3354;
+	font-family: Comic Sans MS;
+}
+
+.page__content h3 {
+    color: #1b3354;
+	text-decoration: underline;
+	font-family: Comic Sans MS;
+}
+
+.button__ordernow {
+    display: inline-block;
+    color: #1b3354;
+    font-weight: 900;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #d73f28;
+	transition: 0.3s;
+    box-shadow: 2px 5px 9px #1b3354 , inset 0 0 8px #1b3354; 
+	font-family: Comic Sans MS;
+    text-shadow: 1px 1px 2px #1b3354;
+}
+
+.button__ordernow:hover {
+    background-color: #d73f28;
+    box-shadow: 5px 10px 18px #1b3354 , inset 0 0 8px #1b3354;
+	cursor: pointer;
+}

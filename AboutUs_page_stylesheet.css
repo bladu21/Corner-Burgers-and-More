@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	
+\* ------------------------------------------------------------ */
+/* #1b3354 - sinio
+#d73f28 - oranjevo
+#FEECC8 - secondary fon */
+
+#menu__clicked {
+    color: #d73f28;
+    border-radius: 5px;
+    text-shadow: 0px 3px 3px #d73f28;
+}
+
+#menu__clicked:hover {
+	color: #1b3354;
+	text-shadow: 0px 2px 3px #1b3354;
+	transition: 0.4s;
+}

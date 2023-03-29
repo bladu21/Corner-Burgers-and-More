@@ -1,0 +1,149 @@
+/* ------------------------------------------------------------ *\
+	menu bar
+\* ------------------------------------------------------------ */
+/* #1b3354 - sinio
+#d73f28 - oranjevo
+#FEECC8 - secondary fon */
+
+#menu__clicked {
+    color: #d73f28;
+    border-radius: 5px;
+    text-shadow: 0px 3px 3px #d73f28;
+}
+
+#menu__clicked:hover {
+	color: #1b3354;
+	text-shadow: 0px 2px 3px #1b3354;
+	transition: 0.4s;
+}
+
+#current {
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+#current:hover {
+    color: white;
+    font-size: 16px;
+    border-bottom: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.menu__bar {
+    background-color: #1b3354;
+    min-height: 100px;
+}
+
+.menu__bar h1 {
+    color: #d73f28;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1.5px #d73f28;
+}
+
+.menu__bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 700;
+    font-family: Comic Sans MS;
+    margin-top: 15px;
+}
+
+.menu__bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu__bar ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.menu__bar ul li:hover {
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------ *\
+	main content
+\* ------------------------------------------------------------ */
+.menu__content {
+    background-color: #feecc9;
+    box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
+    margin-bottom: 20px;
+}
+
+.label__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.label {
+    margin: 50px;
+    flex-basis: 25%;
+}
+
+.label img {
+    width: 400px;
+    height: 260px;
+}
+
+.label p {
+    margin: 10px;
+    font-style: italic; 
+    font-size: 16px;
+    /* max-width: fit-content; */
+}
+
+.label__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label__title h1 {
+    color: #1b3354;
+    text-shadow: 1px 1px 3px #1b3354;
+}
+
+.label__title h3 {
+    color: #d73f28;
+    font-size: 14px;
+    text-shadow: 0px 1px 4px #d73f28;
+}
+
+/* ------------------------------------------------------------ *\
+	button__2
+\* ------------------------------------------------------------ */
+
+.button__2 {
+    /* text-align: center; */
+    color: white;
+    background-color: #d73f28;
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px #1b3354;
+    min-height: 40px;
+}
+
+.button__2 h2 {
+    text-shadow: 0px 1px 1px white;
+    text-align: center;
+    padding: 5px;
+}
+
+.button__2 .button__2 h2:hover {
+    box-shadow: inset 0 0 18px #1b3354;
+    transition: 0.2s;
+    cursor: pointer;
+}
