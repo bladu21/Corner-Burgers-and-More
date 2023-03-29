@@ -30,9 +30,13 @@
     transition: 0.2s;
     cursor: pointer;
 }
-
+.page__content {
+    display: flex;
+    flex-wrap: wrap;
+}
 .menu__bar {
     background-color: #1b3354;
+    min-width: 100%;
     min-height: 100px;
 }
 
