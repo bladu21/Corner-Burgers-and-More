@@ -91,11 +91,15 @@
 .label {
     margin: 50px;
     flex-basis: 25%;
+    /* max-width: 26.25rem; */
+    
 }
 
 .label img {
-    width: 420px;
-    height: 260px;
+    width: 26.25rem;
+    height: 16.5rem;
+    /* object-fit:fill; */
+    
 }
 
 .label p {
