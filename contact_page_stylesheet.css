@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------ *\
+	Page
+\* ------------------------------------------------------------ */
+/* #1b3354 - sinio
+#d73f28 - oranjevo
+#FEECC8 - secondary fon */
+
+#menu__clicked {
+    color: #d73f28;
+    border-radius: 5px;
+    text-shadow: 0px 3px 3px #d73f28;
+}
+
+#menu__clicked:hover {
+	color: #1b3354;
+	text-shadow: 0px 2px 3px #1b3354;
+	transition: 0.4s;
+}
+
+.front__content {
+	float: right;
+	background-color: #feecc8;
+	width: 30%;
+	min-height: 400px;
+	margin-right: 30px;
+	margin-top: -60px;
+	box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
+}
+
+.background__content {
+	background-color: #1b3354;
+	width: 100%;
+	min-height: 400px;
+	margin-top: 100px;
+	box-shadow: 3px 3px 5px #1b3354
+}

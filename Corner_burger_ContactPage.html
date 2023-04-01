@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
     <link rel="stylesheet" href="nav_footer_stylesheet.css">
-    <link rel="stylesheet" href="AboutUs_page_stylesheet.css">
+    <link rel="stylesheet" href="contact_page_stylesheet.css">
     <link rel="apple-touch-icon" sizes="180x180" href="Icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
@@ -21,7 +21,7 @@
             <nav class="nav">
                 <ul>
                     <li><a href="Corner_burger_MenuPage.html">Меню</a></li>
-                    <li><a id="menu__clicked" href="Corner_burger_AboutUs.html">За Нас</a></li>
+                    <li><a href="Corner_burger_AboutUs.html">За Нас</a></li>
                     <li id="logo">
                         <a class="return__home" href="index.html"><img id="logo"
                                 src="Images/Corner_Burger_Logo_Horizontal.png" alt="Corner Burger"></a>
@@ -31,20 +31,57 @@
                             Повече <i class="fa fa-caret-down"></i>
                         </a>
                     </li> <!-- /.dropdown-->
-                    <li><a href="Corner_burger_ContactPage.html">Контакт</a></li>
+                    <li><a id="menu__clicked" href="Corner_burger_ContactPage.html">Контакт</a></li>
                 </ul> <!-- /.ul -->
             </nav> <!-- /.nav -->
         </section> <!-- /.header -->
 
         <section class="page">
-            <h1>- Вашите квартални готвачи! -</h1>
-            <div class="text__content">
-                <h2>LOREM IPSON & DOLOR ELIT</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, id deserunt officiis dolorem, veniam praesentium voluptatem atque voluptates dignissimos labore, repellat eius necessitatibus provident dolores doloremque enim fugit ea ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, officiis. Fugit illum laboriosam porro nulla, quibusdam adipisci quas mollitia vel ut nobis commodi nisi incidunt odio! Culpa incidunt magni impedit.</p>
-                <div class="image__content">
-                    <img src="Images/The_Bosses.jpg">
-                </div>
-            </div> <!-- ./content-->
+            <div class="front__content">
+                <h2>Изпрати съобщение:</h2>
+                <form>
+                    <input type="text" id="name" placeholder="Име"><br>
+                    <input type="email" id="email" placeholder="Имейл адрес"><br>
+                    <textarea id="message" placeholder="Вашето съобщение..." rows="5" ></textarea><br>
+                </form>
+            </div> <!-- ./front__content-->
+
+            <div class="background__content">
+                <div>
+                    <h3>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        Резервация
+                    </h3>
+                    <p>
+                        088xxxxxx
+                    </p>
+                </div>  
+
+                <div><address>
+                    <h3>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        Адрес
+                    </h3>
+                    <p>
+                    ул. „Професор Марин Дринов“ 62,
+                    9000 Варна Център,
+                    Варна
+                    </p>
+                </address></div> 
+
+                <div>
+                    <h3>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        Работно време
+                    </h3>
+                    <p>
+                        Вторник-Събота: 11:00 - 23:00
+                    </p>
+                    <p>
+                        Понеделник и Неделя: Почивка 
+                    </p>
+                </div> 
+            </div> <!-- ./background__content-->
         </section> <!--/.page-->
     </div> <!-- /.wrapper -->
 
