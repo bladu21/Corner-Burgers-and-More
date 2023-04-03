@@ -39,10 +39,11 @@
         <section class="page">
             <div class="front__content">
                 <h2>Изпрати съобщение:</h2>
-                <form>
-                    <input type="text" id="name" placeholder="Име"><br>
-                    <input type="email" id="email" placeholder="Имейл адрес"><br>
-                    <textarea id="message" placeholder="Вашето съобщение..." rows="5" ></textarea><br>
+                <form id="contact__form">
+                    <input class="form__field" type="text" id="name" placeholder="Име"><br>
+                    <input class="form__field" type="email" id="email" placeholder="Имейл адрес"><br>
+                    <textarea class="form__field" id="message" placeholder="Вашето съобщение..." rows="6" ></textarea><br>
+                    <button class="button__2" type="submit" for="contact__form" value="submit">Изпрати</button>
                 </form>
             </div> <!-- ./front__content-->
 
@@ -59,7 +60,7 @@
 
                 <div><address>
                     <h3>
-                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <i class="fa fa-address-book-o" aria-hidden="true"></i>
                         Адрес
                     </h3>
                     <p>
@@ -71,7 +72,7 @@
 
                 <div>
                     <h3>
-                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
                         Работно време
                     </h3>
                     <p>
@@ -117,6 +118,10 @@
             </ul>
         </div> <!-- ./socialmedia-->
     </footer> <!-- ./footer-->
+
+    <script>
+        
+    </script>
 </body>
 
 </html>

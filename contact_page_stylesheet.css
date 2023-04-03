@@ -17,6 +17,33 @@
 	transition: 0.4s;
 }
 
+
+.background__content {
+	background-color: #1b3354;
+	width: 100%;
+	min-height: 280px;
+	margin-top: 100px;
+	padding-top: 15px;
+	box-shadow: 3px 3px 5px #1b3354
+}
+
+.background__content div {
+	margin: 20px;
+}
+
+.background__content div h3 {
+	display: inline-block;
+	color: #d73f28;
+	font-size: 1.25em;
+	font-family: Comic Sans MS;
+	text-shadow: 0px 1px 2px #d73f28;
+}
+
+.background__content div p {
+	color: #feecc8;
+	margin-top: 5px;
+}
+
 .front__content {
 	float: right;
 	background-color: #feecc8;
@@ -27,10 +54,53 @@
 	box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
 }
 
-.background__content {
-	background-color: #1b3354;
-	width: 100%;
-	min-height: 400px;
-	margin-top: 100px;
-	box-shadow: 3px 3px 5px #1b3354
+.front__content h2 {
+	color: #1b3354;
+	margin: 20px;
+	text-align: center;
+	text-shadow: 0px 2px 3px #1b3354;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form__field {
+	margin: 5px;
+	width: 65%;
+}
+
+form input {
+	min-height: 35px;
+	border: hidden;
+	box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+form textarea {
+	border: hidden;
+	box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+form button {
+	width: 50%;
+	min-height: 35px;
+	border: hidden;
+	box-shadow: 3px 3px 3px #1b3354;
+	border-radius: 5px;
+	background-color: #d73f28;
+	font-weight: 700;
+	color: #feecc8;
+	text-shadow: 0px 2px 3px #1b3354;
+}
+
+form button:hover {
+	opacity: 0.9;
+	transition: 0.4s;
 }
