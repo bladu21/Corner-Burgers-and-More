@@ -39,11 +39,11 @@
         <section class="page">
             <div class="front__content">
                 <h2>Изпрати съобщение:</h2>
-                <form id="contact__form">
+                <form id="contact__form" onSubmit="myForm()">
                     <input class="form__field" type="text" id="name" placeholder="Име"><br>
                     <input class="form__field" type="email" id="email" placeholder="Имейл адрес"><br>
                     <textarea class="form__field" id="message" placeholder="Вашето съобщение..." rows="6" ></textarea><br>
-                    <button class="button__2" type="submit" for="contact__form" value="submit">Изпрати</button>
+                    <button type="submit" for="contact__form" value="submit">Изпрати</button>
                 </form>
             </div> <!-- ./front__content-->
 
@@ -117,11 +117,14 @@
                 <li><a href="#"><img src="Images/TikTok__logo.png" alt="TikTok"></a></li>
             </ul>
         </div> <!-- ./socialmedia-->
-    </footer> <!-- ./footer-->
+   </footer> <!-- ./footer-->
 
-    <script>
+   <script>
+    function myForm() {
+        alert("Съобщението Ви е изпратено успешно!");
+    }
+   </script>
 
-    </script>
 </body>
 
 </html>
