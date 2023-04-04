@@ -57,5 +57,10 @@
 @media screen and (max-width: 800px) {
     .page__content {
         padding: 20px;
+        text-align: center;
+    }
+
+    .page__image {
+        margin-top: 20px;
     }
 }
