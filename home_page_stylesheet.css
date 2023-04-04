@@ -53,3 +53,9 @@
     box-shadow: 5px 10px 18px #1b3354 , inset 0 0 8px #1b3354;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .page__content {
+        padding: 20px;
+    }
+}

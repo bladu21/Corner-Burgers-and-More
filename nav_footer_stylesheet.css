@@ -136,24 +136,24 @@ body {
 		position: fixed;
 		top: 0;
 		left: -100%;
-		width: 100%;
+		width: 60%;
 		padding-top: 20px;
 		flex-direction: column;
-
 		background-color: #d73f28;
 		transition: 0.3s;
+		text-align: left;
 	}
 
-	#logo {
-		order: 5;
+	#logo_line {
+		display: none;
 	}
 
 	.nav a {
-		width: 200px;
+		width: 100px;
 	}
 	
 	.nav__menu.active {
-		left: -30%;
+		left: 0;
 	}
 }
 /* ------------------------------------------------------------ *\
