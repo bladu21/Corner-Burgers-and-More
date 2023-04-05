@@ -113,6 +113,16 @@ body {
 	background-color: #1b3354;
 }
 
+.mobile__logo {
+	display: none;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+
+.mobile__logo img {
+	width: 8vh;
+}
+
 @media(max-width: 800px) {
 	.hamburger {
 		display: block;
@@ -154,6 +164,10 @@ body {
 	
 	.nav__menu.active {
 		left: 0;
+	}
+
+	.mobile__logo {
+		display: inline-block;
 	}
 }
 /* ------------------------------------------------------------ *\

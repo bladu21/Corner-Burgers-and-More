@@ -24,7 +24,6 @@
     text-align: center;
     text-shadow: 1px 1px 1.5px #d73f28;
     background-color: #1b3354;
-    min-height: 80px;
     padding: 10px;
 }
 
@@ -55,4 +54,10 @@
 
 .image__content img {
     max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .page h1 {
+        padding: 15px;
+    }
 }
