@@ -145,8 +145,8 @@ body {
 	.nav__menu {
 		position: fixed;
 		top: 0;
-		left: -100%;
-		width: 60%;
+		left: -101%;
+		width: 101%;
 		padding-top: 20px;
 		flex-direction: column;
 		background-color: #d73f28;
