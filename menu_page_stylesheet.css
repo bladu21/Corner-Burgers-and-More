@@ -52,6 +52,7 @@
 .menu__bar ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: white;
     font-weight: 700;
