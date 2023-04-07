@@ -1,9 +1,9 @@
 /* ------------------------------------------------------------ *\
 	menu bar
 \* ------------------------------------------------------------ */
-/* #1b3354 - sinio
-#d73f28 - oranjevo
-#FEECC8 - secondary fon */
+/*  #1b3354 - dark blue
+    #d73f28 - orange
+    #feecc8 - secondary bacckround/font */
 
 #menu__clicked {
     color: #d73f28;
@@ -81,6 +81,7 @@
 /* ------------------------------------------------------------ *\
 	main content
 \* ------------------------------------------------------------ */
+
 .menu__content {
     background-color: #feecc9;
     box-shadow: 3px 0px 5px #1b3354 , -3px 0px 5px #1b3354;
@@ -110,7 +111,6 @@
     margin: 10px;
     font-style: italic; 
     font-size: 16px;
-    /* max-width: fit-content; */
 }
 
 .label__title {
@@ -136,7 +136,6 @@
 \* ------------------------------------------------------------ */
 
 .button__2 {
-    /* text-align: center; */
     color: white;
     background-color: #d73f28;
     border-radius: 10px;

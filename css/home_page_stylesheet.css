@@ -1,7 +1,10 @@
 /* ------------------------------------------------------------ *\
 	Page
 \* ------------------------------------------------------------ */
-
+/*  #1b3354 - dark blue
+    #d73f28 - orange
+    #feecc8 - secondary bacckround/font */
+    
 .page__content {
     display: flex;
     flex-wrap: wrap;
