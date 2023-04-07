@@ -13,7 +13,7 @@ window.onload = function() {
     };
 
     function openMenu() {
-        window.location.href = "Corner_burger_MenuPage.html";
+        window.location.href = "html/Corner_burger_MenuPage.html";
     };
     
     
