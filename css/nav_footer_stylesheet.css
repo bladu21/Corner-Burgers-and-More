@@ -181,7 +181,7 @@ footer {
 	left: 0;
 	width: 100%;
 	background-color: #1b3354;
-	color: white;
+	color: #feecc8;
 	display: grid;
 	padding: 20px;
 }
@@ -208,11 +208,11 @@ footer {
 }
 
 .map ul li a {
-	color: white;
+	color: #feecc8;
 }
 
 .map ul li a:visited {
-	color: white;
+	color: #feecc8;
 }
 
 .contact__information {
