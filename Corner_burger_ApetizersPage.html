@@ -34,7 +34,7 @@
                     </li> <!-- /.dropdown-->
                     <li><a href="Corner_burger_ContactPage.html">Контакт</a></li>
                 </ul> <!-- /.ul -->
-                <div class="hamburger" id="hamburger">
+                <div class="hamburger" id="hamburger" onclick="hamMenu()">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -195,16 +195,6 @@
             </ul>
         </div> <!-- ./socialmedia-->
     </footer> <!-- ./footer-->
-
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav__menu");
-
-        hamburger.addEventListener("click", () => {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        })
-    </script>
 </body>
 
 </html>

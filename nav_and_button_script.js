@@ -6,3 +6,8 @@ function openMenu() {
 function myForm() {
     alert("Съобщението Ви е изпратено успешно!");
 };
+
+function hamMenu () {
+        document.querySelector(".hamburger").classList.toggle("active");
+        document.querySelector(".nav__menu").classList.toggle("active");
+};
