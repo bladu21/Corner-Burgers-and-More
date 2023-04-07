@@ -54,7 +54,7 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
     .page__content {
         padding: 20px;
         text-align: center;
